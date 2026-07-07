@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bean & Brew Coffee — Kopi Pilihan Nusantara</title>
+<meta name="description" content="Bean & Brew Coffee — kopi pilihan Nusantara, diseduh dengan cita rasa terbaik. Order sekarang atau kunjungi kedai kami.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- AOS (Animate On Scroll) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!-- Project stylesheets -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#home" class="logo">Bean<span>&</span>Brew</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="https://wa.me/6281234567890?text=Halo%20Bean%20%26%20Brew%2C%20saya%20mau%20tanya" class="nav-cta">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content" data-aos="fade-up">
+      <span class="hero-eyebrow">Est. Bandung · Kopi Nusantara</span>
+      <h1>Crafted Coffee<br>for Every <em>Moment</em>.</h1>
+      <p>Nikmati kopi pilihan dengan cita rasa terbaik, dibuat dari biji kopi pilihan Nusantara — diseduh dengan hati, disajikan dengan bangga.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/6281234567890?text=Halo%20Bean%20%26%20Brew%2C%20saya%20mau%20order" class="btn btn-primary" target="_blank" rel="noopener">
+          Order Now
+        </a>
+        <a href="#menu" class="btn btn-outline" id="viewMenuBtn">
+          View Menu
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-aos="fade-up" data-aos-delay="150">
+      <div class="accent-ring"></div>
+      <div class="accent-dot"></div>
+      <div class="frame">
+        <!-- TODO: ganti src ini dengan assets/images/hero-coffee.jpg setelah kamu download foto & taruh di folder assets/images -->
+        <img src="https://images.unsplash.com/photo-1633161835691-fb4f5dfd0d46?auto=format&fit=crop&w=900&q=80" alt="Secangkir kopi hangat Bean & Brew di atas meja kayu" loading="eager">
+        <div class="bean-mark">
+          <span class="icon">☕</span>
+          <div>
+            <div class="label">Biji Pilihan</div>
+            <div class="value">100% Arabika Nusantara</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>Scroll</span>
+    <span class="line"></span>
+  </div>
+</section>
+
+<!-- Placeholder — section berikutnya menyusul di sprint selanjutnya -->
+<section class="placeholder-section" id="about">
+  <div class="container">
+    <p>Featured Coffee &amp; Why Choose Us — coming in Sprint 2</p>
+  </div>
+</section>
+<section id="menu" class="placeholder-section"><div class="container"><p>Menu — Sprint 3</p></div></section>
+<section id="gallery" class="placeholder-section"><div class="container"><p>Gallery — Sprint 3</p></div></section>
+
+<!-- AOS script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- Project script -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
