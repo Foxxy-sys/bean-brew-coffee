@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Bean & Brew Coffee</title>
+<meta name="description" content="Jelajahi menu lengkap Bean & Brew Coffee — espresso based, manual brew, non coffee, dan pastry pilihan.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- AOS (Animate On Scroll) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!-- Project stylesheets -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/menu.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Bean<span>&</span>Brew</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li class="mobile-only"><a href="https://wa.me/6282117000048?text=Halo%20Bean%20%26%20Brew%2C%20saya%20mau%20tanya">Contact</a></li>
+    </ul>
+
+    <a href="https://wa.me/6282117000048?text=Halo%20Bean%20%26%20Brew%2C%20saya%20mau%20tanya" class="nav-cta">Contact</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============ MENU HERO ============ -->
+<section class="menu-hero" id="home">
+  <div class="container">
+    <div class="menu-hero-content" data-aos="fade-right">
+      <span class="section-label">Our Menu</span>
+      <h1>Crafted<br>For Every Taste.</h1>
+      <p class="quote">"Kami menggunakan biji kopi pilihan yang diseduh setiap hari."</p>
+    </div>
+
+    <div class="menu-hero-visual" data-aos="fade-left" data-aos-delay="150">
+      <div class="menu-hero-frame">
+        <img src="https://images.unsplash.com/photo-1761271046396-97d231b59dd7?auto=format&fit=crop&w=900&q=80" alt="Barista menyiapkan kopi pilihan di Bean & Brew" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESPRESSO BASED ============ -->
+<section class="menu-category" id="espresso-based">
+  <div class="container">
+    <div class="menu-category-header">
+      <h2>Espresso Based</h2>
+      <span class="menu-category-count">3 items</span>
+    </div>
+
+    <div class="menu-category-inner">
+      <div class="menu-guide-list" data-aos="fade-up">
+
+        <button type="button" class="menu-guide-item active"
+          data-image="https://images.unsplash.com/photo-1649541533884-4477b5d4ef52?auto=format&fit=crop&w=800&q=80"
+          data-desc="Rich espresso shot with caramel finish."
+          data-meta1-label="Beans" data-meta1-value="Arabica Gayo"
+          data-meta2-label="Origin" data-meta2-value="Aceh, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1649541533884-4477b5d4ef52?auto=format&fit=crop&w=800&q=80" alt="Espresso">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">01</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Espresso</h4>
+                <span class="price">28K</span>
+              </div>
+              <p class="menu-guide-taste">Rich &bull; Bold</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Rich espresso shot with caramel finish.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1761271046396-97d231b59dd7?auto=format&fit=crop&w=800&q=80"
+          data-desc="Creamy milk with smooth espresso."
+          data-meta1-label="Beans" data-meta1-value="Arabica Toraja"
+          data-meta2-label="Origin" data-meta2-value="Sulawesi, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1761271046396-97d231b59dd7?auto=format&fit=crop&w=800&q=80" alt="Latte">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">02</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Latte</h4>
+                <span class="price">35K</span>
+              </div>
+              <p class="menu-guide-taste">Creamy &bull; Smooth</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Creamy milk with smooth espresso.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+          data-desc="Chocolate with espresso."
+          data-meta1-label="Beans" data-meta1-value="Arabica Kintamani"
+          data-meta2-label="Origin" data-meta2-value="Bali, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Mocha">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">03</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Mocha</h4>
+                <span class="price">36K</span>
+              </div>
+              <p class="menu-guide-taste">Chocolate &bull; Rich</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Chocolate with espresso.</p>
+        </button>
+
+      </div>
+
+      <div class="menu-guide-panel" data-aos="fade-up" data-aos-delay="150">
+        <div class="menu-guide-panel-frame">
+          <img src="https://images.unsplash.com/photo-1649541533884-4477b5d4ef52?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+        <p class="menu-guide-panel-desc">Rich espresso shot with caramel finish.</p>
+        <div class="menu-guide-panel-meta">
+          <div><span class="meta-label">Beans</span><span class="meta-value">Arabica Gayo</span></div>
+          <div><span class="meta-label">Origin</span><span class="meta-value">Aceh, Indonesia</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MANUAL BREW ============ -->
+<section class="menu-category" id="manual-brew">
+  <div class="container">
+    <div class="menu-category-header">
+      <h2>Manual Brew</h2>
+      <span class="menu-category-count">3 items</span>
+    </div>
+
+    <div class="menu-category-inner">
+      <div class="menu-guide-list" data-aos="fade-up">
+
+        <button type="button" class="menu-guide-item active"
+          data-image="https://images.unsplash.com/photo-1761393877623-4412d7060ba4?auto=format&fit=crop&w=800&q=80"
+          data-desc="Clean, bright, and floral pour-over."
+          data-meta1-label="Beans" data-meta1-value="Arabica Gayo"
+          data-meta2-label="Origin" data-meta2-value="Aceh, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1761393877623-4412d7060ba4?auto=format&fit=crop&w=800&q=80" alt="V60">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">01</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>V60</h4>
+                <span class="price">38K</span>
+              </div>
+              <p class="menu-guide-taste">Clean &bull; Floral</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Clean, bright, and floral pour-over.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1633161835691-fb4f5dfd0d46?auto=format&fit=crop&w=800&q=80"
+          data-desc="Full-bodied with a silky finish."
+          data-meta1-label="Beans" data-meta1-value="Arabica Toraja"
+          data-meta2-label="Origin" data-meta2-value="Sulawesi, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1633161835691-fb4f5dfd0d46?auto=format&fit=crop&w=800&q=80" alt="Chemex">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">02</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Chemex</h4>
+                <span class="price">42K</span>
+              </div>
+              <p class="menu-guide-taste">Full-Bodied &bull; Silky</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Full-bodied with a silky finish.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1755549015346-5ed3040f17f1?auto=format&fit=crop&w=800&q=80"
+          data-desc="Rapid-chilled for a crisp, sweet cup."
+          data-meta1-label="Beans" data-meta1-value="Arabica Kintamani"
+          data-meta2-label="Origin" data-meta2-value="Bali, Indonesia">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1755549015346-5ed3040f17f1?auto=format&fit=crop&w=800&q=80" alt="Japanese Iced">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">03</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Japanese Iced</h4>
+                <span class="price">40K</span>
+              </div>
+              <p class="menu-guide-taste">Crisp &bull; Sweet</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Rapid-chilled for a crisp, sweet cup.</p>
+        </button>
+
+      </div>
+
+      <div class="menu-guide-panel" data-aos="fade-up" data-aos-delay="150">
+        <div class="menu-guide-panel-frame">
+          <img src="https://images.unsplash.com/photo-1761393877623-4412d7060ba4?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+        <p class="menu-guide-panel-desc">Clean, bright, and floral pour-over.</p>
+        <div class="menu-guide-panel-meta">
+          <div><span class="meta-label">Beans</span><span class="meta-value">Arabica Gayo</span></div>
+          <div><span class="meta-label">Origin</span><span class="meta-value">Aceh, Indonesia</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NON COFFEE ============ -->
+<section class="menu-category" id="non-coffee">
+  <div class="container">
+    <div class="menu-category-header">
+      <h2>Non Coffee</h2>
+      <span class="menu-category-count">4 items</span>
+    </div>
+
+    <div class="menu-category-inner">
+      <div class="menu-guide-list" data-aos="fade-up">
+
+        <button type="button" class="menu-guide-item active"
+          data-image="https://images.unsplash.com/photo-1560148196-df61132466ce?auto=format&fit=crop&w=800&q=80"
+          data-desc="Ceremonial-grade matcha with steamed milk."
+          data-meta1-label="Type" data-meta1-value="Matcha"
+          data-meta2-label="Best Served" data-meta2-value="Hot or Iced">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1560148196-df61132466ce?auto=format&fit=crop&w=800&q=80" alt="Matcha Latte">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">01</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Matcha Latte</h4>
+                <span class="price">33K</span>
+              </div>
+              <p class="menu-guide-taste">Earthy &bull; Creamy</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Ceremonial-grade matcha with steamed milk.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1753837787691-84a06d715d24?auto=format&fit=crop&w=800&q=80"
+          data-desc="Rich Belgian chocolate, velvety smooth."
+          data-meta1-label="Type" data-meta1-value="Chocolate"
+          data-meta2-label="Best Served" data-meta2-value="Hot">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1753837787691-84a06d715d24?auto=format&fit=crop&w=800&q=80" alt="Chocolate">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">02</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Chocolate</h4>
+                <span class="price">30K</span>
+              </div>
+              <p class="menu-guide-taste">Rich &bull; Velvety</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Rich Belgian chocolate, velvety smooth.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1752756992329-961db6366376?auto=format&fit=crop&w=800&q=80"
+          data-desc="Selection of premium loose-leaf tea."
+          data-meta1-label="Type" data-meta1-value="Black Tea"
+          data-meta2-label="Best Served" data-meta2-value="Hot">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1752756992329-961db6366376?auto=format&fit=crop&w=800&q=80" alt="Tea">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">03</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Tea</h4>
+                <span class="price">18K</span>
+              </div>
+              <p class="menu-guide-taste">Light &bull; Aromatic</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Selection of premium loose-leaf tea.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+          data-desc="Refreshing black tea with citrus."
+          data-meta1-label="Type" data-meta1-value="Citrus Tea"
+          data-meta2-label="Best Served" data-meta2-value="Iced">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Lemon Tea">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">04</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Lemon Tea</h4>
+                <span class="price">20K</span>
+              </div>
+              <p class="menu-guide-taste">Citrus &bull; Refreshing</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Refreshing black tea with citrus.</p>
+        </button>
+
+      </div>
+
+      <div class="menu-guide-panel" data-aos="fade-up" data-aos-delay="150">
+        <div class="menu-guide-panel-frame">
+          <img src="https://images.unsplash.com/photo-1560148196-df61132466ce?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+        <p class="menu-guide-panel-desc">Ceremonial-grade matcha with steamed milk.</p>
+        <div class="menu-guide-panel-meta">
+          <div><span class="meta-label">Type</span><span class="meta-value">Matcha</span></div>
+          <div><span class="meta-label">Best Served</span><span class="meta-value">Hot or Iced</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PASTRY ============ -->
+<section class="menu-category" id="pastry">
+  <div class="container">
+    <div class="menu-category-header">
+      <h2>Pastry</h2>
+      <span class="menu-category-count">4 items</span>
+    </div>
+
+    <div class="menu-category-inner">
+      <div class="menu-guide-list" data-aos="fade-up">
+
+        <button type="button" class="menu-guide-item active"
+          data-image="https://images.unsplash.com/photo-1755880040186-e1633991485c?auto=format&fit=crop&w=800&q=80"
+          data-desc="Buttery, flaky, baked fresh daily."
+          data-meta1-label="Style" data-meta1-value="Classic"
+          data-meta2-label="Pairs With" data-meta2-value="Espresso">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1755880040186-e1633991485c?auto=format&fit=crop&w=800&q=80" alt="Croissant">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">01</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Croissant</h4>
+                <span class="price">22K</span>
+              </div>
+              <p class="menu-guide-taste">Buttery &bull; Flaky</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Buttery, flaky, baked fresh daily.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1755880040186-e1633991485c?auto=format&fit=crop&w=800&q=80"
+          data-desc="Croissant dough wrapped around dark chocolate."
+          data-meta1-label="Style" data-meta1-value="Chocolate-Filled"
+          data-meta2-label="Pairs With" data-meta2-value="Latte">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1755880040186-e1633991485c?auto=format&fit=crop&w=800&q=80" alt="Pain Au Chocolat">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">02</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Pain Au Chocolat</h4>
+                <span class="price">25K</span>
+              </div>
+              <p class="menu-guide-taste">Chocolate &bull; Flaky</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Croissant dough wrapped around dark chocolate.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1754711596655-04ad921bd050?auto=format&fit=crop&w=800&q=80"
+          data-desc="Creamy baked cheesecake, graham crust."
+          data-meta1-label="Style" data-meta1-value="Baked"
+          data-meta2-label="Pairs With" data-meta2-value="Americano">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1754711596655-04ad921bd050?auto=format&fit=crop&w=800&q=80" alt="Cheesecake">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">03</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Cheesecake</h4>
+                <span class="price">32K</span>
+              </div>
+              <p class="menu-guide-taste">Creamy &bull; Rich</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Creamy baked cheesecake, graham crust.</p>
+        </button>
+
+        <button type="button" class="menu-guide-item"
+          data-image="https://images.unsplash.com/photo-1754711596655-04ad921bd050?auto=format&fit=crop&w=800&q=80"
+          data-desc="Moist banana bread with a hint of cinnamon."
+          data-meta1-label="Style" data-meta1-value="Homestyle"
+          data-meta2-label="Pairs With" data-meta2-value="Tea">
+          <img class="menu-guide-item-mobile-img" src="https://images.unsplash.com/photo-1754711596655-04ad921bd050?auto=format&fit=crop&w=800&q=80" alt="Banana Bread">
+          <div class="menu-guide-top">
+            <span class="menu-guide-num">04</span>
+            <div class="menu-guide-main">
+              <div class="menu-guide-toprow">
+                <h4>Banana Bread</h4>
+                <span class="price">20K</span>
+              </div>
+              <p class="menu-guide-taste">Moist &bull; Sweet</p>
+            </div>
+          </div>
+          <p class="menu-guide-desc-mobile">Moist banana bread with a hint of cinnamon.</p>
+        </button>
+
+      </div>
+
+      <div class="menu-guide-panel" data-aos="fade-up" data-aos-delay="150">
+        <div class="menu-guide-panel-frame">
+          <img src="https://images.unsplash.com/photo-1755880040186-e1633991485c?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+        <p class="menu-guide-panel-desc">Buttery, flaky, baked fresh daily.</p>
+        <div class="menu-guide-panel-meta">
+          <div><span class="meta-label">Style</span><span class="meta-value">Classic</span></div>
+          <div><span class="meta-label">Pairs With</span><span class="meta-value">Espresso</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="logo footer-logo">Bean<span>&</span>Brew</a>
+
+      <ul class="footer-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="https://wa.me/6281234567890" target="_blank" rel="noopener">Contact</a></li>
+      </ul>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bean &amp; Brew Coffee. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- AOS script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- Project script -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
